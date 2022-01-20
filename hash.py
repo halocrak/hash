@@ -8,6 +8,9 @@ import concurrent.futures
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-s', help='hash', dest='hash')
+parser.add_argument('-f', help='file containing hashes', dest='file')
+parser.add_argument('-d', help='directory containing hashes', dest='dir')
+parser.add_argument('-t', help='number of threads', dest='threads', type=int)
 args = parser.parse_args()
 
 #Colors and shit like that
