@@ -71,7 +71,7 @@ def theta(hashvalue, hashtype):
         return False
 
 os.system('figlet 1877')
-print("@halo1877" % red)
+print("@halo1877" )
 
 md5 = [gamma, alpha, beta, theta, delta]
 sha1 = [alpha, beta, theta, delta]
